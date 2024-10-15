@@ -23,6 +23,7 @@ jobs:
           - focal-x64
           - focal-devtoolset-ppc64le
           - focal-devtoolset-riscv64
+          - focal-devtoolset-s390x
 
     steps:
       - uses: actions/checkout@v3
